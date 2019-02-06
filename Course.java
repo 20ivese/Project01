@@ -1,8 +1,6 @@
 package Project00;
 
 import java.util.ArrayList;
-import Project00.TeamCool;
-import Project00.Member;
 
 public class Course
 {
@@ -29,6 +27,7 @@ public class Course
     {
         teams.add(new TeamCool("TeamCool"));
         teams.add(new TeamNice("TeamNice"));
+        teams.add(new TeamNullV2("TeamNullV2"));
         // create each new team and add to team list;
         // Repository owner will do this.
     }
